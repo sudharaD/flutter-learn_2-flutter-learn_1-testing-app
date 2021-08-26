@@ -6,13 +6,11 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           title: Text('I Am Rich'),
-          backgroundColor: Colors.deepOrange[900],
+          backgroundColor: Colors.blue[500],
         ),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.blue[50],
         body: Center(
-          child: Image(
-              image: NetworkImage(
-                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSQmNgmTYTxMH-4d_3w-qVK2SeUYhYfqfLg&usqp=CAU')),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
